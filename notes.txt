@@ -1,0 +1,21 @@
+Python
+--------
+It is a popular high-level programming language known for its simplicity. Interpreted Programming Language.
+python --->  compilation into byte code   ---> Interpretation -->   machine code(computer can understand)
+
+Extension for python file ---> .py
+Command to run a python file ---> python filename
+
+To Print a data at the output
+------------------------------
+print(data)
+
+Syntax 
+-------
+>> Python is case-sensitive programming language (a not equal to A)
+>> Indentation matters.
+
+Comments
+------------
+Single line comments ---> #
+multiple line comments ---> '''  '''
