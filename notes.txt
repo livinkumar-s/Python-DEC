@@ -10,6 +10,10 @@ To Print a data at the output
 ------------------------------
 print(data)
 
+To prompt input 
+----------------
+input()  ---> will return only string. 77 --> "77"
+
 Syntax 
 -------
 >> Python is case-sensitive programming language (a not equal to A)
@@ -19,3 +23,35 @@ Comments
 ------------
 Single line comments ---> #
 multiple line comments ---> '''  '''
+
+Variable 
+-----------
+A variable is a named memory location used to store data temporarily.
+
+varName=value
+
+Naming rules 
+-------------
+>> can contain letters, numerics, - _
+>> should start with letters, _
+>> no reserved keywords
+
+Datatypes
+----------
+type(obj) --> find the Datatype of an object
+
+Integer ---> Whole Numbers 
+Float ---> dec num 
+
+String --> Collection of char wrapped with '' or "".
+Concatination --> + . Ex: "Hello"+"World" ---> "HelloWorld"
+
+Ex: "Hello"
+Boolean --> True/False
+
+Type Casting 
+----------------
+int --> converts into integer 
+str --> string 
+float 
+bool
