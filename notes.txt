@@ -55,3 +55,55 @@ int --> converts into integer
 str --> string 
 float 
 bool
+
+Operators 
+----------
+6 + 8 = 14
++ --> Operator
+6,8 ---> Operands 
+
+Arithmetic Operators 
+--------------------
+Addition ---> + 
+Sub --> -
+mul --> *
+div --> /
+floor div --> // 
+Modulus --> %
+Expo --> **
+
+BODMAS 
+
+Comparison Operator (Boolean)
+--------------------
+==  --> equal 
+!=  --> not equal
+<  --> lesser than
+>  --> greater than
+<= --> lesser than or equal
+>= --> greater than or equal
+
+Logical operators(Boolean)
+-----------------
+and --> True ---> Both are True. False otherwise
+or  --> True ---> anyone is True. False --> Both are False
+not --> Inverts Boolean
+
+Assignment Operators
+---------------------
+= --> assign
++= --> add and assign
+-= --> sub and assign
+*= --> mul and assign
+/= --> div and assign 
+//= --> floor div and assign 
+%= --> mod and assign
+**= --> expo and assign
+
+Bitwise Operators (bits)
+------------------
+& --> bitwise and --> and operation between bits. Ex: 7&17
+| --> bitwise or --> or operation between bits.
+~ --> not ---> ~n=-(n+1)
+left shift ---> << --> Ex: 4<<2
+right shift --> >> --> Ex: 14>>3
