@@ -2,6 +2,16 @@ Python
 --------
 It is a popular high-level programming language known for its simplicity. Interpreted Programming Language.
 python --->  compilation into byte code   ---> Interpretation -->   machine code(computer can understand)
+ 
+                      Compilation                            Interpretation
+python                    ---->   Byte code(binary 00011 10000)  ----> machine code(computer can understand)
+(human written code)
+
+line1
+line2
+.        -----> 00001111 
+.
+line1000
 
 Extension for python file ---> .py
 Command to run a python file ---> python filename
@@ -17,7 +27,7 @@ input()  ---> will return only string. 77 --> "77"
 Syntax 
 -------
 >> Python is case-sensitive programming language (a not equal to A)
->> Indentation matters.
+>> Indentation matters.(whitespace)
 
 Comments
 ------------
@@ -41,12 +51,13 @@ Datatypes
 type(obj) --> find the Datatype of an object
 
 Integer ---> Whole Numbers 
-Float ---> dec num 
+Float ---> dec num. Ex: 3.14 
 
 String --> Collection of char wrapped with '' or "".
 Concatination --> + . Ex: "Hello"+"World" ---> "HelloWorld"
-
+His name is vijay. He is 51 years old...!
 Ex: "Hello"
+
 Boolean --> True/False
 
 Type Casting 
@@ -69,7 +80,7 @@ Sub --> -
 mul --> *
 div --> /
 floor div --> // 
-Modulus --> %
+Modulus --> % (reminder) 55%4 -->13*4 =>52
 Expo --> **
 
 BODMAS 
@@ -105,5 +116,12 @@ Bitwise Operators (bits)
 & --> bitwise and --> and operation between bits. Ex: 7&17
 | --> bitwise or --> or operation between bits.
 ~ --> not ---> ~n=-(n+1)
+^ --> ex or --> x-or operation between bits.(same-->0, diff-->1)
 left shift ---> << --> Ex: 4<<2
 right shift --> >> --> Ex: 14>>3
+
+
+Control Flow
+------------
+Conditional Clause
+loop
