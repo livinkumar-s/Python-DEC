@@ -124,4 +124,34 @@ right shift --> >> --> Ex: 14>>3
 Control Flow
 ------------
 Conditional Clause
-loop
+---------------------
+if
+---
+syntax:
+----------
+if condition:
+    block of code
+
+>>True --> it executes block of code. False--> it will not execute block of 
+
+elif 
+----------
+syntax:
+----------
+elif condition:
+    block of code
+
+else
+------
+syntax 
+--------
+else:
+    block of code
+
+Nested If 
+------------
+if block inside another.
+
+if cond1:
+    if cond2:
+        block of code
