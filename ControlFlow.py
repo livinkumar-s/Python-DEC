@@ -63,15 +63,57 @@
 # else:
 #         print("Fail")
 
-a=int(input("Enter a Number: "))
+# a=int(input("Enter a Number: "))
 
-if a>10:
-    if a>15:
-        print("Very large!")
-    else:
-        print("Large")
-else:
-    if a<5:
-        print("Very small!")
-    else:
-        print("Small")
+# if a>10:
+#     if a>15:
+#         print("Very large!")
+#     else:
+#         print("Large")
+# else:
+#     if a<5:
+#         print("Very small!")
+#     else:
+#         print("Small")
+
+
+# Loops 
+# x=0
+
+# while x<5:
+#     print("Step1")
+#     print("Step2")
+#     print("Step3")
+#     print("----------------")
+#     x-=1
+
+# iteration count -->1,2,3,4,5
+# x --> 0,1,2,3,4,5
+
+# a="Hello guys.. i am from tamilnadu...! welcome to the session"
+
+# print(a[4])
+# print(a[4])
+# print(len(a))
+
+# a=range(100)
+# print(list(a))
+
+# str="helloworld"
+
+# print(len(str))
+
+# for i in range(100):
+#     print(i)
+#     print("-----------")
+
+# for i in range(1,10):
+#     print(i)
+
+# for i in range(5,50,7):
+#     print(i)
+
+# for i in range(1000,0,-1):
+#     print(i)
+
+

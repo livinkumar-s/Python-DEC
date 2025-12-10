@@ -60,6 +60,19 @@ Ex: "Hello"
 
 Boolean --> True/False
 
+Iterable Objects(Sequences)
+----------------------------
+to find length of a sequence ---> len(iterObj)
+>> An object that can return its members individually.
+Ex: String, List, Tuple, Dict......
+
+Indexing and Slicing
+------------------------
+>>index starts with 0.
+a="Hello world"
+a[3] ---> 'l'
+negative indexing ---> a[-1] --> 'd'
+
 Type Casting 
 ----------------
 int --> converts into integer 
@@ -155,3 +168,36 @@ if block inside another.
 if cond1:
     if cond2:
         block of code
+
+Loop
+-------
+>> It repeats a block of code for multiple times.
+
+while
+-------
+syntax
+----------
+while condition:
+    block of code
+
+true ---> keeps executing the block of code. false--> stop executing the code
+
+For 
+------
+Sequence Based Loop 
+-----------------------
+syntax
+-------
+ for varName in sequence:
+    block of code
+
+iterating over a sequence
+
+Range --> used to create temporary iterable object.
+
+range(length) --> Ex: range(100) --> [0,1,2,3...99]
+range(start, end) --> Ex: range(1,5)--> [1,2,3,4]
+range(start,end,step) --> Ex: range(1,20,3) ---> [1,4,7,10,13,16,19]
+
+Control statements for loops
+-------------------------------
