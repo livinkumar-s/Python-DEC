@@ -173,7 +173,7 @@ Loop
 -------
 >> It repeats a block of code for multiple times.
 
-while
+while (when you dont no the number of iteration)
 -------
 syntax
 ----------
@@ -182,7 +182,7 @@ while condition:
 
 true ---> keeps executing the block of code. false--> stop executing the code
 
-For 
+For (when you know the number of iteration)
 ------
 Sequence Based Loop 
 -----------------------
@@ -201,3 +201,5 @@ range(start,end,step) --> Ex: range(1,20,3) ---> [1,4,7,10,13,16,19]
 
 Control statements for loops
 -------------------------------
+Break --> Stop the loop
+Continue--> Skips the current iteration

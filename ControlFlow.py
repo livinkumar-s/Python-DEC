@@ -116,4 +116,39 @@
 # for i in range(1000,0,-1):
 #     print(i)
 
+# i=0
+
+# while i<10:
+#     print(i)
+#     if i==7:
+#         break
+#     i+=1
+
+# print(i)
+
+# for i in range(51):
+#     if i==25:
+#         continue
+#     print(i)
+
+# for i in range(1,101):
+#     if i%3==0 and i%5==0:
+#         print("guru")
+#     elif i%3==0 or i%5==0:
+#         continue
+#     else:
+#         print(i)
+
+# for i in range(100):
+#     print("Hello world")
+
+# secret_number=77
+
+# while True:
+#     num=int(input("Guess the number: "))
+#     if secret_number==num:
+#         print("You won!")
+#         break
+#     else:
+#         print("Try again!")
 
