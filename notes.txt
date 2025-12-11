@@ -73,6 +73,14 @@ a="Hello world"
 a[3] ---> 'l'
 negative indexing ---> a[-1] --> 'd'
 
+Slicing---> extracting a part of iterable object.
+iterObj[start:]
+iterObj[:end]
+iterObj[start:end]
+iterObj[::-1]
+
+
+
 Type Casting 
 ----------------
 int --> converts into integer 
@@ -203,3 +211,24 @@ Control statements for loops
 -------------------------------
 Break --> Stop the loop
 Continue--> Skips the current iteration
+
+Datastructures
+----------------
+List
+-------
+syntax--> [ele1, ele2, ele3......]
+iterable object--> indexed
+ordered
+mutable
+
+in built methods  
+-----------------
+.append(ele) --> at the end
+.extend(iterObj) --> at the end, multiple elements
+.insert(pos,ele)
+.pop(ind) --> removes an element by index number.
+.remove(ele)
+.sort()
+.reverse()
+.count(ele)
+.index(ele)
