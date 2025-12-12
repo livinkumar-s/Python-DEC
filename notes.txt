@@ -87,6 +87,10 @@ int --> converts into integer
 str --> string 
 float 
 bool
+list 
+tuple 
+set 
+dict
 
 Operators 
 ----------
@@ -232,3 +236,54 @@ in built methods
 .reverse()
 .count(ele)
 .index(ele)
+
+Tuple 
+------
+Syntax --> (ele1,ele2.....)
+Iterable, indexed
+allows duplicate
+Immutable, it is faster than list.
+
+In built methods 
+------------------
+count --> number of occurances.
+index --> finds the index
+
+Packling/Unpacking
+-------------------
+person1=("Kelly",32, True)
+
+name=person1[0]
+age=person1[1]
+
+name,age,isMarried=person1
+
+Sets
+-----
+syntax --> {ele1, ele2,ele3......}
+>> No duplicates.
+>> mutable
+
+In built methods 
+----------------
+add() --> new ele to a set.
+remove() --> removesan element
+
+.union() --> joins two sets
+.intersection() ---> common values
+.difference()
+
+Dictionary
+-----------
+Syntax --> {key1:val1, key2:val2,.....}
+>> Mutable 
+>> Iterable
+>> Allows duplicate.
+
+In built methods 
+----------------
+.keys() --> [all the keys]
+.values() --> [all the values]
+.items() -->[(key1, val1),(key2,val2)....]
+.pop("key")
+.clear()
