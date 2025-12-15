@@ -287,3 +287,39 @@ In built methods
 .items() -->[(key1, val1),(key2,val2)....]
 .pop("key")
 .clear()
+
+Functions 
+--------------
+>> It is a reusable block of code that performs a specific task.
+
+>> In built functions ---> print, input....
+>> User defined function 
+
+Syntax:
+--------
+def fnName():
+    block of code
+
+calling ---> fnName()
+
+Parameters and Arguments 
+------------------------
+ P---> Variable created while creating a function without value
+ A--> values you pass while calling the function
+
+ Poitional Arguments 
+ -----------------------
+ >>order matters.
+
+ Keyword Arguments
+ ------------------
+ >> parameter names. order does not matter.
+
+Default Arguments
+-----------------
+>> Default value is used, if no arguement is passed.
+
+Return keyword
+---------------
+>> break the function.
+>> Return a data to the caller.
