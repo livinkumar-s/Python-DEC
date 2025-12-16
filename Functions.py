@@ -52,3 +52,46 @@
 # print(a)
 
 # check ---> num ---> odd, even 
+
+# def check(num):
+#     if num % 2 == 0:
+#         print("Even number")
+#     else:
+#         print("Odd number")
+# check(86)
+ 
+
+# def sumNum(*a): # a--> variable length parameter
+#     print(sum(a))
+
+
+# sumNum(546,43,546,2,6,546,3)
+
+# def collectData(**data):
+#     print(data)
+
+# collectData(name="Vijay",age=51,noOfMovies=68)
+
+
+# Scopes
+
+# a=10
+
+# def func1():
+#     a=15
+#     print("The value of a from inside func1 is: ",a)
+
+
+# func1()
+# print("The value of a is: ",a)
+
+def outer():
+
+    print("Outer function")
+
+    def inner():
+        print("Inner function")
+    inner()
+    
+
+outer()

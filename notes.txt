@@ -319,7 +319,24 @@ Default Arguments
 -----------------
 >> Default value is used, if no arguement is passed.
 
+Variable-length arguments (*args)
+-----------------------------------
+>> used when we don't know how many positional arguments will be passed.
+
+Variable-length keyword arguements (**args)
+-------------------------------------
+Used to accept any number of keyword arguements
+
+def fnName(*a)
+
 Return keyword
 ---------------
 >> break the function.
 >> Return a data to the caller.
+
+Scopes
+-------
+>> Scope is a place where a variable can be accessed.
+
+Global Scope ---> Variable declared outside of any function.
+Local Scope ---> Variable declared in any function
