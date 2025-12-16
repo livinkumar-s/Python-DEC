@@ -54,9 +54,42 @@ Integer ---> Whole Numbers
 Float ---> dec num. Ex: 3.14 
 
 String --> Collection of char wrapped with '' or "".
+>>Sequence
+>>Immutable
+
+Operations
+------------
 Concatination --> + . Ex: "Hello"+"World" ---> "HelloWorld"
-His name is vijay. He is 51 years old...!
-Ex: "Hello"
+Repetition ---> * --> "Hello"*2 --> "HelloHello"
+Membership Operation ---> in, not in (Boolean)
+
+In built methods 
+--------------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.strip() --> removes unwanted whitespaces
+.lstrip()
+.rstrip()
+
+.replace("old","new")
+
+.split("char") --> str--> list
+.join(iter) --> list --> str
+
+.count()
+.find()  ---> not found --> -1
+
+.isAlpha()
+.isDigit()
+.isAlnum()
+
+Formatted String 
+-------------------
+ex: f" {}  {}  {}"
+
 
 Boolean --> True/False
 
@@ -340,3 +373,4 @@ Scopes
 
 Global Scope ---> Variable declared outside of any function.
 Local Scope ---> Variable declared in any function
+
