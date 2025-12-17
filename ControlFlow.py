@@ -152,3 +152,47 @@
 #     else:
 #         print("Try again!")
 
+
+
+# print("* ")
+# print("* * ")
+# print("* * * ")
+# print("* * * * ")
+# print("* * * * * ")
+
+# len=40
+
+# for i in range(len):
+#     print("* "*(i+1))
+
+# for i in range(6):
+#     for j in range(6):
+#         print("*", end=" ")
+#     print()
+
+len=50
+#10*10
+
+for i in range(1,len+1): #(1,2,3,4,5)
+    for j in range(1,len+1):
+        if i==1 or i==len or j==1 or j==len:
+            print("* ",end="")
+        else:
+            print("  ",end='')
+    print()
+    
+
+#i=1
+#j=1,2,3,4,5
+#i=2
+#j=1,2,3,4,5
+#i=3
+#j=1,2,3,4,5
+#i=4
+#j=1,2,3,4,5
+#i=5
+#j=1,2,3,4,5
+
+# print("Hello",end="")
+# print("Hello")
+# print("Hello")
