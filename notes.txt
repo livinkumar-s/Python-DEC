@@ -374,3 +374,26 @@ Scopes
 Global Scope ---> Variable declared outside of any function.
 Local Scope ---> Variable declared in any function
 
+
+Error and Error handling 
+--------------------------
+It is a problem in program that prevents it from running correctly.
+
+Syntax Errors
+----------------
+>> It occurs when python rules(syntax or grammer) are violated.
+Ex: IndendationError, SyntaxError.....
+
+Runtime Errors (Exceptions)
+----------------
+>> A runtime error occurs while the program is running, even if syntax is correct.
+Ex: ZeroDivisionError, TypeError, ValueError...
+
+Exception Handilng
+---------------------
+try:
+    block of code 
+except errorName:
+    exception block of code
+finally:
+    block of code
