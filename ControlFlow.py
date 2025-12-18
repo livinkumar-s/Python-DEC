@@ -170,13 +170,13 @@
 #         print("*", end=" ")
 #     print()
 
-len=50
+len=15
 #10*10
 
 for i in range(1,len+1): #(1,2,3,4,5)
     for j in range(1,len+1):
         if i==1 or i==len or j==1 or j==len:
-            print("* ",end="")
+            print("❤️ ",end="")
         else:
             print("  ",end='')
     print()

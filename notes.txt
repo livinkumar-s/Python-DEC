@@ -397,3 +397,22 @@ except errorName:
     exception block of code
 finally:
     block of code
+
+File Handling 
+--------------
+>> It is the process of reading, writiung, updating data in a file.
+
+To open a file ---> open("fileName","mode")
+mode --> Read, write, append....
+To close file --> file.close()
+./--> sibling
+../ --> parent
+/ --> child
+
+
+To read the whole content ---> file.read()
+To read the particular char ---> file.read(10)
+To read line one by one ---> file.readline()
+To read all the lines ---> file.readlines()
+
+To over writing --> file.write(content)
