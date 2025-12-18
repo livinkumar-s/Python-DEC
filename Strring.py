@@ -14,8 +14,8 @@ b="Hello guys...Hello Baiya... Hello buddies"
 
 # print(b.replace("Hello","Vanakkam"))
 
-c="I am livinkumar. From Tamilnadu."
-
+c="I am livinkumar. \nFrom Tamilnadu."
+print(c)
 
 # print(c.count("a"))
 # print(c.find("arr"))

@@ -416,3 +416,25 @@ To read line one by one ---> file.readline()
 To read all the lines ---> file.readlines()
 
 To over writing --> file.write(content)
+
+
+
+OOP 
+------
+Object Oriented programming
+----------------------------
+>> It is a programming pattern to write program.
+
+Car --> information(capacity, RPM...) ---> Ability(run, stop....)
+Object ---> Attributes ---> Methods.
+
+Creating Blueprint(all the info about the Object)---> Object1, Object2....
+Class(Attributes, Methods) ----> Multiple Objects.
+
+To create class
+------------------
+
+class className:
+    define attr and methods
+
+to create attributes --> __init__()
